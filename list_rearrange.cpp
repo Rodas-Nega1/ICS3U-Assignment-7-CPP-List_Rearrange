@@ -8,8 +8,6 @@
 
 #include <iostream>
 #include <random>
-#include <ctime>
-#include <list>
 #include <vector>
 
 
@@ -87,7 +85,7 @@ int main() {
     orderedList = RearrangeList(randomGeneratedNumbers1,
     randomGeneratedNumbers2);
     std::cout << "" << std::endl;
-    std::cout << "\nThe smallest number is ";
+    std::cout << "\nThe new ordered list is ";
     for (int listElement3 : orderedList) {
         std::cout << listElement3 << " ";
     }
